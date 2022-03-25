@@ -1,0 +1,69 @@
+.footer {
+    display: flex;
+    align-items: center;
+    border-top: 1px solid #ddd;
+    background-color: #F4FCE8;
+    margin: 0 -20px -10px -20px;
+    padding: 12px 20px;
+    position: relative;
+    top: -1px;
+    color: #777;
+}
+
+.footerBtnWrapper {
+    border-right: 1px solid #ccc;
+    margin-right: 15px;
+    padding-right: 10px;
+    height: 20px;
+}
+
+.btn {
+    display: inline-block;
+    margin: 0 5px;
+    height: 18px;
+    width: 18px;
+    cursor: pointer;
+    opacity: 0.5;
+    -webkit-transition: 0.3s all;
+    transition: 0.3s all;
+}
+
+.btnAdd {
+    background: url(..//img/add.svg) no-repeat center;
+}
+
+.selected {
+    opacity: 1;
+    border-color: #ddd;
+}
+
+.btnSearch {
+    background: url(..//img/search.svg) no-repeat center;
+}
+
+
+
+.footerListFilter {
+    list-style-type: none;
+    display:flex;
+    margin-left: auto;
+}
+
+.footerFilter {
+    cursor: pointer;
+    color: inherit;
+    margin: 3px;
+    padding: 4px 8px;
+    text-decoration: none;
+    border: 1px solid transparent;
+    border-radius: 3px;
+}
+
+.footerFilter:hover {
+    border-color: rgba(175, 47, 47, 0.1);
+}
+
+.footerFilter.selectedFilter {
+    border-color: rgba(175, 47, 47, 0.2);
+    color: #555;
+}
